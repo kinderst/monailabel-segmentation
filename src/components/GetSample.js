@@ -12,7 +12,7 @@ const GetSample = props => {
       }
 
       // Define the URL and headers
-      const url = 'http://10.164.0.2:8000/activelearning/last';
+      const url = 'http://34.91.126.112:8000/activelearning/last';
       const headers = {
         'Accept': 'application/json',
         'Content-Type': 'application/json',
@@ -31,7 +31,7 @@ const GetSample = props => {
         .then(data => {
           const imgId = data.id
           // Define the URL and headers
-          const urlImg = 'http://10.164.0.2:8000/datastore/image?image=' + imgId;
+          const urlImg = 'http://34.91.126.112:8000/datastore/image?image=' + imgId;
           const headersImg = {
           'Accept': 'application/json',
           };

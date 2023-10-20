@@ -17,7 +17,7 @@ const RunTrain = props => {
     useEffect(() => {
         // fetchData(); // Initial data fetch
         const intervalId = setInterval(() => {
-            fetch('http://10.164.0.2:8000/train/?all=false&check_if_running=false', {
+            fetch('http://34.91.126.112:8000/train/?all=false&check_if_running=false', {
             method: 'GET',
             headers: {
                 'Accept': 'application/json',
@@ -70,7 +70,7 @@ const RunTrain = props => {
         setIsDone(false);
 
       // Define the URL and headers
-      const url = 'http://10.164.0.2:8000/train/SegformerBundle?run_sync=false&enqueue=false';
+      const url = 'http://34.91.126.112:8000/train/SegformerBundle?run_sync=false&enqueue=false';
       const headers = {
         'Accept': 'application/json',
         'Content-Type': 'application/json',
