@@ -1,7 +1,7 @@
 {
   "name": "monailabel-segmentation",
   "version": "0.1.0",
-  "homepage": "http://kinderst.github.io/monailabel-segmentation",
+  "homepage": "http://34.90.147.70",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
